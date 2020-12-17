@@ -2,7 +2,7 @@ const {
 	interpolateStringTemplate,
 	stringTemplateFactory,
 	StringTemplateError,
-} = require('../src/simple-string-templates.js');
+} = require('../dist/simple-string-templates.js');
 const { expect } = require('chai');
 
 describe('interpolateStringTemplate', function () {
