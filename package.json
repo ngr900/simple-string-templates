@@ -1,0 +1,27 @@
+{
+  "name": "@ngr900/simple-string-templates",
+  "version": "0.1.0",
+  "description": "simple string templates",
+  "main": "dist/simple-string-templates.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "build": "webpack"
+  },
+  "repository": "https://github.com/ngr900/simple-string-templates",
+  "keywords": [
+    "template",
+    "string"
+  ],
+  "author": "Kamil Szydlowski",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "mocha": "^8.2.1",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "@ngr900/deep-property": "^0.1.0"
+  }
+}
