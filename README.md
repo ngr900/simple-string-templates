@@ -43,5 +43,5 @@ interpolateStringTemplate(template, values);
 const { stringTemplateFactory } = require('@ngr900/simple-string-templates');
 
 const greetingTemplate = stringTemplateFactory('Hello, my name is ${name}');
-greetingTemplate({ name: 'Rachel Ochmonek' }); // "Hello, my name is Rachel"
+greetingTemplate({ name: 'Rachel Ochmonek' }); // "Hello, my name is Rachel Ochmonek"
 ```
